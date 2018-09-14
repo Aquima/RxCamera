@@ -7,12 +7,15 @@
 //
 
 import UIKit
-
+import RxCamera
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let camera:RxCoreCamera = RxCoreCamera()
+        
+        print(camera.myLocalNumber)
     }
 
     override func didReceiveMemoryWarning() {

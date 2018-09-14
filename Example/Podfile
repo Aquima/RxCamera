@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'RxCamera_Example' do
   pod 'RxCamera', :path => '../'
-
+  pod 'RxSwift'
   target 'RxCamera_Tests' do
     inherit! :search_paths
 
