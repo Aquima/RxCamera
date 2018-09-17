@@ -11,8 +11,16 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
   - Quick (1.2.0)
-  - RxCamera (0.1.0)
-  - RxSwift (4.2.0)
+  - RxCamera (0.1.0):
+    - RxCocoa (~> 4.0)
+    - RxGesture
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.3.0):
+    - RxSwift (~> 4.0)
+  - RxGesture (1.2.1):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,7 +28,6 @@ DEPENDENCIES:
   - Nimble-Snapshots (~> 6.3.0)
   - Quick (~> 1.2.0)
   - RxCamera (from `../`)
-  - RxSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -28,6 +35,8 @@ SPEC REPOS:
     - Nimble
     - Nimble-Snapshots
     - Quick
+    - RxCocoa
+    - RxGesture
     - RxSwift
 
 EXTERNAL SOURCES:
@@ -39,9 +48,11 @@ SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  RxCamera: 3f9d03cfe51d4342f14412923119f4e2d8362949
-  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  RxCamera: 774fd08bec0fed4a399c64d17426fa4bd8c61a1d
+  RxCocoa: 71b9cce833fbcb89a8eec11816dd225830c2bd3c
+  RxGesture: c278eb05b187abd47e11e65464ae4de53ab71d95
+  RxSwift: a9717a34df3179fe63563f76e046ad345078dd3a
 
-PODFILE CHECKSUM: 2d88c03fb9d848a9b62544edaab0b9732989f598
+PODFILE CHECKSUM: 2acb7f85f044dd5efb16ac442ee44d11d7d432f2
 
 COCOAPODS: 1.5.3
